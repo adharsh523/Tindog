@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<style>
+div {
+border-style:solid;
+border-width:3.5px;
+border-color:orange;
+background-color:rgb(50,205,50);
+margin:auto;
+}
+h2 {
+color:orange;
+}
+</style>
+<body>
+<div style="height:500x;width:500px;">
+<form autocomplete="off">
+<center>
+<h2>Personal details</h2>
+name:<input type="text" name="name" text-align="center" required><br>
+<br>
+Password:<input type="password" name="password" required><br>
+<br>
+E-mail id:<input type="email" name="email" required><br>
+<br>
+Gender:<input type="radio" name="Gender" value="male" required>male
+<input type="radio" name="Gender" value="female" required>female<br>
+<br>
+contact:<input type="number" name="contact" required><br>
+<h2>Education Qualification</h2>
+<label for="degree">Degree</lable>
+<select id="degree" name="Degree" required>
+<option value="select" selected>select</option>
+<option value="B.A">B.A</option>
+<option value="B.Com">B.Com</option>
+<option value="B.Sc">B.Sc</option>
+</select><br>
+<br>
+<label for="Eng">Engineering</lable>
+<select id="Eng" name="Engineering" required>
+<option value="select" selected>select</option>
+<option value="IT">IT</option>
+<option value="ECE">ECE</option>
+<option value="CSE">CSE</option>
+</select><br>
+<br>
+Hobbies:<input type="checkbox" name="checkbox" value="Playing chess">Playing chess
+<input type="checkbox" name="checkbox" value="Reading books">Reading books<br>
+<h2>Address</h2>
+<textarea name="message" rows="4" cols="30" required></textarea><br>
+<br>
+Attch Resume:<input type="file" name="file" required><br>
+<br>
+<input type="reset" style="background-color:orange;color:white;">
+<input type="submit" value="Submit" style="background-color:orange;color:white;"><br>
+<br>
+</center>
+</form>
+</div>
+</body>
+</html>
